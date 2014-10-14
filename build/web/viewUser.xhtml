@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+         xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>
+        <title>User</title>
+        
+    </head>
+    <body>
+        
+       <f:view>
+            <h:form>
+                Id  <h:outputText id="id" value="#{userData.id}" />
+               <br />
+                Name    <h:outputText id="name" value="#{userData.name}" />
+                  <br />
+                Username    <h:outputText id="username" value="#{userData.username}" />
+                  <br />
+                Password    <h:outputText id="password" value="#{userData.password}" />
+                  <br />
+                Address <h:outputText id="address" value="#{userData.address}" />
+                  <br />
+                Latitude    <h:outputText id="latitude" value="#{userData.latitude}" />
+                  <br />
+                Longitude   <h:outputText id="longitude" value="#{userData.longitude}" />
+                  <br />
+                  Birth date    <h:outputText id="birthDate" value="#{userData.birthDate}" >   
+                <f:convertDateTime pattern="yyyy-MM-dd" />
+                </h:outputText>
+                  <br />
+                Role<h:outputText id="role" value="#{userData.role}" />
+               
+            </h:form>
+        </f:view>
+    
+    </body>
+</html>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.earthtools.org/timezone-1.1/40.71417/-74.00639" uri="src/conf/xml-resources/web-service-references/-74/wsdl/www.earthtools.org/timezone-1.1/40.71417/-74.00639.xml"/>
+    <system systemId="http://www.earthtools.org/webservices.htm#timezone" uri="src/conf/xml-resources/web-service-references/webservices/wsdl/www.earthtools.org/webservices.htm"/>
+</catalog>
